@@ -1,0 +1,103 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can answer frequently asked questions asked by guests at this hotel about reservations, travel plans, support and hotel policies"],
+     "context": [""]
+    },
+    {"tag": "hotel_policies",
+     "patterns": ["How do I request an early check-in or late check-out with the hotel? ", "Early check-in or late check-out", "Early check-in", "Late Check-out", "How early check-in or late check-out ?", "Information about early check-in or late check-out ?"],
+     "responses": ["Since hotel policies regarding early check-in (generally before 2:00 pm) or late checkout (generally after 12:00 pm) vary by location and by hotel, please call the hotel directly prior to your arrival to make any necessary arrangements. Direct hotel phone numbers can be found on your confirmation email or on the hotel information page."],
+     "context": ["hotel policy about early check-in and late check-out"]
+    },
+    {"tag": "hotel policies",
+     "patterns": ["What is your policy regarding cancellations?", "What is cancellation policy?"],
+     "responses": ["If your travel plans change, you can cancel or modify your reservation in accordance with the hotel's cancellation policy as stated during the reservation process."],
+     "context": ["hotel policy about cancellations"]
+    },
+    {"tag": "hotel policies",
+     "patterns": ["Will I be charged for extra guests occupying my room?", "Extra guest policy", "What are charges for extra guests?", "What happens if I have extra guests?"],
+     "responses": ["Hotel room rates vary by date and by the number of adults occupying a single room. To accommodate more guests, you need to change your reservation. You will be notified of any additional charges prior to confirming your updated reservation."],
+     "context": ["hotel policy about extra guests"]
+    },
+    {"tag": "hotel policies",
+     "patterns": ["Is there a minimum age requirement to reserve a hotel room?", "minimum age requirement", "What is minimum age to book hotel room?", "What is minimum age for reservation?"],
+     "responses": ["Although individual hotel policies may vary, most hotels have a minimum age requirement of 21 years old. Please call the hotel directly prior to your arrival to make any necessary arrangements. Direct hotel phone numbers can be found in your confirmation email or on the respective hotel information page."],
+     "context": ["hotel policy about minimum age"]
+    },
+    {"tag": "hotel policies",
+     "patterns": ["Can the hotel supply a cot or crib for my room when I travel with children?", "travel with children", "What happens if I travel with children?", "Is a cot available for children?", "Is a crib available for children?"],
+     "responses": ["We'll do everything possible to accommodate your request. Please note all special requests in the “Add comment” area when making a reservation on our website."],
+     "context": ["hotel policy about cots for children"]
+    },
+    {"tag": "hotel policies",
+     "patterns": ["Who can I call if I want to speak to someone when visiting the hotel website?", "Who can I call if I have questions", "Who to call ?", "Is there a phone number?", "What is the helpline number?"],
+     "responses": ["For any queries regarding brand content, please get in touch with the appropriate regional office."],
+     "context": ["hotel call contact"]
+    },
+    {"tag": "account and support",
+     "patterns": ["How do I update my guest information online?", "How update guest information?"],
+     "responses": ["After you sign in, select “My account” and go to “My profile” to view your account information. To update your address, email address, and preferences, select the “Request Changes” button. You will be sent an email that contains a link to complete your updates."],
+     "context": ["upating guest information"]
+    },
+    {"tag": "account and support",
+     "patterns": ["Where can I find maps and directions to the hotel?", "Maps and directions for hotel"],
+     "responses": ["When on a hotel’s overview page, click on to the “Contact” tab. Here, you’ll find contact details for the hotel. Scroll down further to the section on how to get to the hotel. This will include directions from major transport hubs and an interactive map helping you find the hotel from your chosen location, via car, public transport or on foot."],
+     "context": ["hotel maps directions"]
+    },
+    {"tag": "account and support",
+     "patterns": ["What is the best way to find the information that I need?", "infromation", "I need information", "How to find information"],
+     "responses": ["Find all the guidance you need regarding a hotel on the respective hotel’s web page. Navigate through the tabs (Overview, Rooms, Meetings & Events, Nearby Attractions, Contact, Reviews) to find the relevant information."],
+     "context": ["information support"]
+    },
+    {"tag": "reservations",
+     "patterns": ["I can not make online reservation. Is there a phone number I can call?", "Who to call if I can not make reservation online", "Help phone number"],
+     "responses": ["In case any issues arise during the reservation process, please call the regional help desk."],
+     "context": ["help desk phone number"]
+    },
+    {"tag": "reservations",
+     "patterns": ["Can I reserve more than one room?", "How many rooms can I book?", "Number of rooms that can be booked"],
+     "responses": ["Yes, you can book up to nine rooms at a time. Please see the list of toll-free numbers to contact in your country if you wish to order ten or more rooms."],
+     "context": ["number of rooms"]
+    },
+    {"tag": "reservations",
+     "patterns": ["How can I pay for reservation?", "Can I pay with a credit card?", "payment options"],
+     "responses": ["Yes. A credit card number is required to book a reservation online for those hotels that accept credit cards. For your security, any personal information such as your credit card number or phone number will be encrypted before being transmitted over the internet."],
+     "context": ["payment method"]
+    },
+    {"tag": "travel plans",
+     "patterns": ["What if my travel plans change?", "Can I cancel or change my travel plans?"],
+     "responses": ["Yes. If your travel plans change, you can cancel or modify your reservation in accordance with the Radisson Hotel Group cancellation policy as stated during the reservation process."],
+     "context": ["travel plans"]
+    },
+    {"tag": "pricing",
+     "patterns": ["What is the price of one room?", "price"],
+     "responses": ["Since prices are variable for further information about prices please visit the website or contact the helpdesk"],
+     "context": ["room prices"]
+    },
+    {"tag": "facilities",
+     "patterns": ["What facilities are available?", "facilities", "services"],
+     "responses": ["Everyday services include housekeeping, breakfast, new linen and towels, protective equipment, back storage. For further information please contact the help desk."],
+     "context": ["services"]
+    }
+]
+}
