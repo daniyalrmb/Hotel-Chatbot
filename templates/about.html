@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+  
+{% block content %}
+<strong><link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}"></strong>
+  <h2>About</h2>
+  <p>This is python chatbot that uses deep learning to predict answers for frequently asked questions by guests at hotels.</p>
+  <p>As a reference the FAQs published by radisson hotel group at their website are used. These include questions about hotel policies, reservations, customer support and travel plans.</p>
+  <p>https://www.radissonhotels.com/en-us/faq</p>
+  <p>The feedback page provides the option of sending a feedback message to the developer.</p>
+  <p>This Chatbot is developed as part of an assignment for CETM 46 module in the MSc data science course at university of Sunderland.</p>
+{% endblock %}
